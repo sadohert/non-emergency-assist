@@ -1,0 +1,16 @@
+.env
+state.json
+corpus/
+.venv/
+__pycache__/
+.DS_Store
+.pytest_cache/
+video/narration/
+video/calls/
+video/voice-sample.*
+video/*.mov
+video/*.mp4
+video/edit*/
+video/export/
+video/logos/
+video/sample-amber/

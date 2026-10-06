@@ -1,0 +1,20 @@
+[project]
+name = "non-emergency-assist"
+version = "0.1.0"
+description = "Unofficial demo: an ElevenAgents non-emergency information line, defined as code"
+requires-python = ">=3.11"
+dependencies = [
+    "elevenlabs>=2.71,<3",
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "httpx>=0.27",
+    "pyyaml>=6",
+    "python-dotenv>=1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
